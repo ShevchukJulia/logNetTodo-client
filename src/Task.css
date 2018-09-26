@@ -1,0 +1,16 @@
+.task {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.task-description {
+  flex: 1;
+  background-color: #fffad5;
+}
+
+.task-description--done {
+  text-decoration: line-through;
+  color: #43a047;
+  background-color: #ebf5ea;
+}
